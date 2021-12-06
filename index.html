@@ -30,30 +30,34 @@
         method="POST"
       >
         <h2>Passo a Passo</h2>
-        <label for="">
+        <label class="name" for="">
           Cliente:
-          <input type="text" name="Cliente" id="name" />
+          <input type="text" name="Nome da Cliente" id="name" />
         </label>
         <fieldset>
           <legend>Comparar Contraste</legend>
           <label for="contraste">
-            <input type="radio" name="Contraste/Baixo" id="contraste" />
+            <input type="checkbox" name="Contraste/Baixo" id="contraste" />
             Baixo
           </label>
-          <label for="">
-            <input type="radio" name="Contraste/Médio" id="contraste" />
+          <label for="contraste">
+            <input type="checkbox" name="Contraste/Médio" id="contraste" />
             Médio
           </label>
-          <label for="">
-            <input type="radio" name="Contraste/Alto" id="contraste" />
+          <label for="contraste">
+            <input type="checkbox" name="Contraste/Alto" id="contraste" />
             Alto
           </label>
-          <label for="">
-            <input type="radio" name="Contraste/Médio/Baixo" id="contraste" />
+          <label for="contraste">
+            <input
+              type="checkbox"
+              name="Contraste/Médio/Baixo"
+              id="contraste"
+            />
             Médio/Baixo
           </label>
-          <label for="">
-            <input type="radio" name="Contraste/Médio/Alto" id="contraste" />
+          <label for="contraste">
+            <input type="checkbox" name="Contraste/Médio/Alto" id="contraste" />
             Médio/Alto
           </label>
         </fieldset>
@@ -61,31 +65,55 @@
           <legend>1. Comparar os tecidos listrados</legend>
           <div class="div">
             <label for="">
-              <input type="radio" name="1.Claro" id="color" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Claro"
+                id="color"
+              />
               Claro
             </label>
             <label class="input1" for="">
-              <input type="radio" name="1.Escuro" id="color" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Escuro"
+                id="color"
+              />
               Escuro
             </label>
           </div>
           <div class="div">
             <label for="">
-              <input type="radio" name="1.Suave" id="suave" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Suave"
+                id="suave"
+              />
               Suave
             </label>
             <label for="">
-              <input type="radio" name="1.Brilhante" id="suave" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Brilhante"
+                id="suave"
+              />
               Brilhante
             </label>
           </div>
           <div class="div">
             <label for="">
-              <input type="radio" name="1.Frio" id="clima" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Frio"
+                id="clima"
+              />
               Frio
             </label>
             <label class="input2" for="">
-              <input type="radio" name="1.Quente" id="clima" />
+              <input
+                type="checkbox"
+                name="Tecidos Listrados - Quente"
+                id="clima"
+              />
               Quente
             </label>
           </div>
@@ -93,15 +121,27 @@
         <fieldset>
           <legend>2. Comparar o resultado com tecidos</legend>
           <label for="">
-            <input type="radio" name="2.Quente" id="result" />
+            <input
+              type="checkbox"
+              name="Resultado com Tecidos - Quente"
+              id="result"
+            />
             Quente
           </label>
           <label for="">
-            <input type="radio" name="2.Frio" id="result" />
+            <input
+              type="checkbox"
+              name="Resultado com Tecidos - Frio"
+              id="result"
+            />
             Frio
           </label>
           <label for="">
-            <input type="radio" name="2.Neutro" id="result" />
+            <input
+              type="checkbox"
+              name="Resultado com Tecidos - Neutro"
+              id="result"
+            />
             Neutro
           </label>
         </fieldset>
@@ -120,30 +160,34 @@
         <fieldset>
           <legend>Primavera</legend>
           <label for="">
-            <input type="radio" name="Primavera/Quente/Puro" id="primavera" />
+            <input
+              type="checkbox"
+              name="Primavera/Quente/Puro"
+              id="primavera"
+            />
             Primavera Quente/Puro
           </label>
           <label for="">
-            <input type="radio" name="Primavera/Claro" id="primavera" />
+            <input type="checkbox" name="Primavera/Claro" id="primavera" />
             Primavera Claro
           </label>
           <label for="">
-            <input type="radio" name="Primavera/Brilhante" id="primavera" />
+            <input type="checkbox" name="Primavera/Brilhante" id="primavera" />
             Primavera Brilhante
           </label>
         </fieldset>
         <fieldset>
           <legend>Outono</legend>
           <label for="">
-            <input type="radio" name="Outono/Quente/Puro" id="outono" />
+            <input type="checkbox" name="Outono/Quente/Puro" id="outono" />
             Outono Quente/Puro
           </label>
           <label for="">
-            <input type="radio" name="Outono/Escuro" id="outono" />
+            <input type="checkbox" name="Outono/Escuro" id="outono" />
             Outono Escuro
           </label>
           <label for="">
-            <input type="radio" name="Outono/Suave" id="outono" />
+            <input type="checkbox" name="Outono/Suave" id="outono" />
             Outono Suave
           </label>
         </fieldset>
@@ -151,30 +195,30 @@
         <fieldset>
           <legend>Inverno</legend>
           <label for="">
-            <input type="radio" name="Inverno/Frio/Puro" id="inverno" />
+            <input type="checkbox" name="Inverno/Frio/Puro" id="inverno" />
             Inverno Frio/Puro
           </label>
           <label for="">
-            <input type="radio" name="Inverno/Escuro" id="inverno" />
+            <input type="checkbox" name="Inverno/Escuro" id="inverno" />
             Inverno Escuro
           </label>
           <label for="">
-            <input type="radio" name="Inverno/Brilhante" id="inverno" />
+            <input type="checkbox" name="Inverno/Brilhante" id="inverno" />
             Inverno Brilhante
           </label>
         </fieldset>
         <fieldset>
           <legend>Verão</legend>
           <label for="">
-            <input type="radio" name="Verão/Suave" id="inverno" />
+            <input type="checkbox" name="Verão/Suave" id="inverno" />
             Verão Suave
           </label>
           <label for="">
-            <input type="radio" name="Verão/Frio/Puro" id="inverno" />
+            <input type="checkbox" name="Verão/Frio/Puro" id="inverno" />
             Verão Frio/Puro
           </label>
           <label for="">
-            <input type="radio" name="Verão/Claro" id="inverno" />
+            <input type="checkbox" name="Verão/Claro" id="inverno" />
             Verão Claro
           </label>
         </fieldset>
