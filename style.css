@@ -12,7 +12,8 @@ body {
 }
 header {
   text-align: center;
-  background-image: url("bg1.jpeg");
+  background-image: url("bg1.jpeg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
   background-position: center;
   background-size: cover;
   padding: 20px 20px 0 20px;
@@ -47,7 +48,7 @@ h2 {
   margin-left: 0px;
 }
 img {
-  border-radius: 50%;
+  border-radius: 50% 50% 0 0;
   width: 200px;
 }
 form {
@@ -61,11 +62,13 @@ form {
   border: 0;
   border-radius: 5px;
   padding: 3px 7px;
+  margin: 10px 0;
   margin-left: 5px;
 }
 fieldset {
   border: 2px solid #8b0021;
   margin: 10px 0;
+  margin-bottom: 30px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -130,7 +133,6 @@ footer {
     margin-left: -15px;
   }
   img {
-    border-radius: 50%;
     width: 100px;
   }
 }
