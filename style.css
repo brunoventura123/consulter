@@ -22,12 +22,14 @@ header p {
   font-family: sans-serif;
 }
 h1 {
-  font-size: 19px;
+  font-size: 2em;
   text-align: center;
   color: #000;
   border-bottom: 1px solid #ff0049;
   padding-bottom: 5px;
   font-family: sans-serif;
+  max-width: 790px;
+  margin: auto;
 }
 p {
   margin: 10px 0;
@@ -44,10 +46,12 @@ h2 {
 }
 img {
   border-radius: 50%;
-  width: 150px;
+  width: 100px;
 }
 form {
   padding: 20px 10px;
+  max-width: 790px;
+  margin: auto;
 }
 #name {
   background-color: #fff;
@@ -110,4 +114,12 @@ footer {
   width: 70%;
   margin: auto;
   margin-top: 20px;
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 19px;
+  }
+  header p {
+    font-size: 14px;
+  }
 }
