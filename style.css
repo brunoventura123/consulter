@@ -52,6 +52,9 @@ img {
   border-radius: 50% 50% 0 0;
   width: 200px;
 }
+.logo {
+  width: 100%;
+}
 form {
   padding: 20px 10px;
   max-width: 790px;
