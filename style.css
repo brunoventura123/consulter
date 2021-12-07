@@ -12,7 +12,7 @@ body {
 }
 header {
   text-align: center;
-  background-image: url("bg1.jpeg");
+  background-image: url("bg3.png");
   background-position: center;
   background-size: cover;
   padding: 20px 20px 0 20px;
@@ -37,7 +37,7 @@ h2 {
   margin-left: 0px;
 }
 img {
-  border-radius: 50% 50% 0 0;
+  border-radius: 50%;
   width: 300px;
 }
 .logo {
