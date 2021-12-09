@@ -8,7 +8,7 @@
 }
 body {
   background-color: #b69fa3;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: sans-serif;
 }
 header {
   text-align: center;
@@ -17,12 +17,9 @@ header {
   background-size: cover;
   padding: 20px 20px 0 20px;
 }
-header p {
-  font-weight: 600;
-  font-family: sans-serif;
-}
 p {
-  margin: 10px 0;
+  margin: 10px;
+  line-height: 40px;
 }
 h2 {
   text-align: start;
@@ -72,6 +69,26 @@ fieldset {
   flex-direction: column;
   font-size: 22px;
 }
+.primavera {
+  background-image: url("primavera.png");
+  background-position: center;
+  background-size: cover;
+}
+.outono {
+  background-image: url("outono.png");
+  background-position: center;
+  background-size: cover;
+}
+.inverno {
+  background-image: url("inverno.png");
+  background-position: center;
+  background-size: cover;
+}
+.verao {
+  background-image: url("verao.png");
+  background-position: center;
+  background-size: cover;
+}
 legend {
   font-family: "Kalam", cursive;
   font-size: 22px;
@@ -95,9 +112,6 @@ label {
 input {
   margin-right: 10px;
   background-color: #8b0021;
-}
-p {
-  line-height: 25px;
 }
 .enviar {
   width: 100%;
