@@ -10,9 +10,22 @@ body {
   background-color: #b69fa3;
   font-family: sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #8b0021;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 3px solid #8b0021;
+}
 header {
   text-align: center;
-  background-image: url("bg3.png");
+  background-image: url("images/bg3.png");
   background-position: center;
   background-size: cover;
   padding: 20px 20px 0 20px;
@@ -71,22 +84,22 @@ fieldset {
   border-radius: 10px;
 }
 .primavera {
-  background-image: url("primavera.png");
+  background-image: url("images/primavera.png");
   background-position: center;
   background-size: cover;
 }
 .outono {
-  background-image: url("outono.png");
+  background-image: url("images/outono.png");
   background-position: center;
   background-size: cover;
 }
 .inverno {
-  background-image: url("inverno.png");
+  background-image: url("images/inverno.png");
   background-position: center;
   background-size: cover;
 }
 .verao {
-  background-image: url("verao.png");
+  background-image: url("images/verao.png");
   background-position: center;
   background-size: cover;
 }
