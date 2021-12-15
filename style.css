@@ -126,6 +126,7 @@ label {
 input {
   margin-right: 10px;
   background-color: #8b0021;
+  cursor: pointer;
 }
 .enviar {
   width: 100%;
